@@ -2,11 +2,11 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaRegClock } from "react-icons/fa6";
 function StickyCard(params) {
   return (
-    <div className="sticky right-0 top-4 border shadow-sm rounded-sm  w-full ml-24 h-min">
+    <div className="sticky right-0 top-20 border shadow-sm rounded-sm  w-full ml-24 h-min">
       <div className="border-b-2  p-6">
         <h1 className="text-3xl font-semibold">Lia Aesthetics</h1>
         <div className="flex flex-row items-center mt-2">
-          <span className="text-lg font-semibold mr-2 text-lg">5.0</span>
+          <span className="text-lg font-semibold mr-2 ">5.0</span>
           <Star />
           <Star />
           <Star />
