@@ -129,14 +129,14 @@ function CardSlider() {
         {cards.map((card, index) => {
           return (
             <li
-              className="border border-gray-200 rounded-md w-96 shadow-lg
+              className="border border-gray-200 rounded-md w-96 shadow-lg hover:
                "
               ref={index === 7 ? targetRef2 : index === 0 ? targetRef1 : null}
             >
               <img
                 src={card.pic}
                 alt=""
-                className=" rounded-t-lg max-w-fit  w-80"
+                className=" rounded-t-lg max-w-fit  w-80 "
               />
               <div className="p-2">
                 <h1 className="font-semibold ">{card.title}</h1>
