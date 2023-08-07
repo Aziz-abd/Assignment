@@ -17,7 +17,9 @@ function ReviewSection(params) {
       <div className="mt-8">
         <Comments />
       </div>
-      <button className="border rounded-md p-2 mt-4 text-[#222727] font-semibold px-4 text-lg">See all</button>
+      <button className="border rounded-md p-2 mt-4 text-[#222727] font-semibold px-4 text-lg">
+        See all
+      </button>
     </div>
   );
 }
@@ -104,7 +106,7 @@ function Comments(params) {
               </div>
               <div className="ml-2">
                 <h1>{comment.name}</h1>
-                <div className="-mt-0.5 text-xs font-semibold text-gray-400">
+                <div className="-mt-0.5 text-xs  text-gray-400">
                   {comment.date}
                 </div>
               </div>

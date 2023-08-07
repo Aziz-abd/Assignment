@@ -15,14 +15,14 @@ function PhotoSection(params) {
             (14){" "}
           </a>
           <span>•</span>
-          <a className="text-green-600 ml-2 mr-2 font-semibold" href="">
+          <a className="text-green-600 ml-2 mr-2 " href="">
             {" "}
             Open
           </a>{" "}
-          <span className="mr-2 font-semibold">
+          <span className="mr-2">
             closes soon at 8:00pm • UK, Cameo House, 11 Bear Street, London
           </span>
-          <a href="" className="text-indigo-600 font-semibold ">
+          <a href="" className="text-indigo-600  ">
             Get directions
           </a>
         </div>

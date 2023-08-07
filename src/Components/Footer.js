@@ -2,7 +2,7 @@ import { FaApple, FaGoogle } from "react-icons/fa";
 
 function Footer(params) {
   return (
-    <div className="bg-[#f2f2f2] py-12 px-20 w-full">
+    <div className="bg-[#f2f2f2] py-12 px-20 w-full mt-10">
       <div className="grid grid-cols-5 gap-x-8">
         <div className="col-span-1">
           <Logo />

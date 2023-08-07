@@ -3,7 +3,7 @@ import { useState } from "react";
 function BottomSection() {
   const [selected, setselected] = useState(0);
   return (
-    <div className="mt-12">
+    <div className="mt-16 mb-10">
       <h1 className="text-3xl font-semibold">
         Treat yourself anytime, anywhere
       </h1>
@@ -32,44 +32,44 @@ function BottomSection() {
       </div>
       <div className="grid grid-cols-5 gap-x-6">
         <div className="flex flex-col justify-start items-start content-start text-left mt-4">
-          <button className="mt-2  text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
+          <button className="mt-3  text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
         </div>
         <div className="flex flex-col justify-start items-start content-start text-left mt-4">
-          <button className="mt-2  text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
+          <button className="mt-3  text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
         </div>
         <div className="flex flex-col justify-start items-start content-start text-left mt-4">
-          <button className="mt-2  text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
+          <button className="mt-3  text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
         </div>
         <div className="flex flex-col justify-start items-start content-start text-left mt-4">
-          <button className="mt-2  text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
+          <button className="mt-3  text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
         </div>
         <div className="flex flex-col justify-start items-start content-start text-left mt-4">
-          <button className="mt-2  text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
-          <button className="mt-2 text-sm font-semibold">Beauty Salon</button>
+          <button className="mt-3  text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
+          <button className="mt-3 text-sm">Beauty Salon</button>
         </div>
       </div>
     </div>

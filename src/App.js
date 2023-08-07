@@ -15,22 +15,24 @@ function App() {
     <div>
       <div
         style={{
-          margin: "1rem 5rem 2rem 5rem",
+          margin: "1rem 4.8rem 2rem 4.8rem",
         }}
       >
         <MYYHeader />
         <RoutesRow />
         <PhotoSection />
-        <div className="flex mt-10">
+        <div className="flex mt-12">
           <div className="w-3/5 ">
             <ServiceSection />
             <ReviewSection />
             <AboutSection />
           </div>
+        
           <StickyCard/>
         </div>
         <VenuSection />
         <BottomSection />
+        <div className="mt-16"></div>
       </div>
       <Footer/>
     </div>

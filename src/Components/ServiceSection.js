@@ -36,24 +36,29 @@ function ServiceSection(params) {
   ];
   return (
     <div>
-        <h1 className="text-3xl font-semibold">Services</h1>
-        <HSlider />
-        <div className="mt-8">
-          {services.map((service, index) => {
-            return (
-              <div className="flex flex-row justify-between items-center border border-gray-200 rounded-md p-4 mt-2">
-                <div flex flex-col>
+      <h1 className="text-3xl font-semibold">Services</h1>
+      <HSlider />
+      <div className="mt-8">
+        {services.map((service, index) => {
+          return (
+            <button className="w-full hover:bg-gray-100 mt-2 rounded-md" >
+              <div className="flex flex-row justify-between items-center border border-gray-200 rounded-md p-4 ">
+                <div className="flex flex-col items-start ">
                   <div className="font-semibold">{service.title}</div>
                   <div>{service.time}min</div>
                   <div className="font-semibold mt-6">£{service.price}</div>
                 </div>
-                <button className="mr-4 p-2 hover:bg-gray-200 rounded-md"><FaPlus/></button>
+                <button className="mr-4 p-2 hover:bg-gray-200 rounded-md">
+                  <FaPlus />
+                </button>
               </div>
-            );
-          })}
-        </div>
-        <button className="border rounded-md p-2 mt-4 text-[#222727] font-semibold px-4 text-lg">See all</button>
-      
+            </button>
+          );
+        })}
+      </div>
+      <button className="border rounded-md p-2 mt-4 text-[#222727] font-semibold px-4 text-lg">
+        See all
+      </button>
     </div>
   );
 }
